@@ -9,9 +9,12 @@ function restar(a, b) {
 }
 
 function dividir(a, b) {
+    if (b === 0) {
+        return "impossible to divide";
+    }
     return a/b;
 }
-    
+
 function multiplicar(a,b) {
     return a*b;
 }
